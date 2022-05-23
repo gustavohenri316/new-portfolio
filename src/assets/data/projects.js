@@ -1,7 +1,10 @@
 import { v4 as uuidv4 } from 'uuid';
 import GreenCtgImg from '../images/alga.png';
 import UTrackerImg from '../images/controle.png';
+import Multi from '../images/multi.png';
 import CoinTrackerImg from '../images/naped.png';
+import Nlw from '../images/nlw.png';
+import phoenix from '../images/phoenix.png';
 
 const projects = [
   {
@@ -27,6 +30,30 @@ const projects = [
     img: CoinTrackerImg,
     GitHub: 'https://github.com/gustavohenri316/desafio10-naped',
     Preview: 'https://desafio10-naped.vercel.app/'
+  },
+  {
+    id: uuidv4(),
+    name: 'Feedback',
+    desc:'Project of a floating feedback button made in the nlw return of 2022',
+    img: Nlw,
+    GitHub: 'https://github.com/gustavohenri316/nlw-impulse',
+    Preview: 'https://nlw-impulse-tan.vercel.app/'
+  },
+  {
+    id: uuidv4(),
+    name: 'Multi-Languages',
+    desc:'Project made for the internationalization of the company where I work',
+    img: Multi,
+    GitHub: 'https://github.com/gustavohenri316/multi-languages',
+    Preview: 'https://multi-languages.vercel.app/'
+  },
+  {
+    id: uuidv4(),
+    name: 'Landing Page Phoenix',
+    desc:'landing page clone of ar phoenix website',
+    img: phoenix,
+    GitHub: 'https://github.com/gustavohenri316/phoenix',
+    Preview: 'https://phoenix-iota.vercel.app/'
   },
   // {
   //   id: uuidv4(),
