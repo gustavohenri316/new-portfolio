@@ -1,10 +1,10 @@
 import React from 'react';
+import Typical from 'react-typical';
 import HeroImg from '../../assets/images/Hero.png';
 import ScrollDownArrow from '../../assets/images/scroll-down-arrow.svg';
 import SocialMediaArrow from '../../assets/images/social-media-arrow.svg';
 import Button from '../Button';
 import { HeroStyles } from './styles';
-
 
 export default function HeroSection() {
   return (
@@ -20,7 +20,14 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <p>
-              I've been working as a Front End Developer at A.R Phoenix for a year. I love designing and creating new web experiences for people.
+              <Typical
+                steps={[
+                  "I've been working as a Front End Developer at A.R Phoenix for a year. I love designing and creating new web experiences for people.", 
+                  1000,
+                ]}
+                loop={3}
+                wrapper="p"
+              />
             </p>
             <Button btnText="see my works" btnLink="/projects" />
           </div>

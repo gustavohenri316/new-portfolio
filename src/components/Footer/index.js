@@ -8,11 +8,9 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Gustavo Oliveira</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+          A web designer and web developer from Contagem, Minas Gerais. I always make websites with unique designs and also with a good performance rate.
           </PText>
         </div>
         <div className="footer__col2">
@@ -47,16 +45,16 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+55 3199335-8612',
+                path: 'tel:+5531993358612',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'gustavohenri316@icloud.com',
+                path: 'mailto:gustavohenri316@icloud.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
-                path: 'http://google.com/maps',
+                title: 'Contagem, Minas Gerais, Brasil',
+                path: "https://www.google.com.br/maps/@-19.8883584,-44.0936536,19.5z",
               },
             ]}
           />
@@ -66,16 +64,20 @@ export default function Footer() {
             heading="social Links"
             links={[
               {
-                title: 'Facebook',
-                path: 'http://facebook.com',
+                title: 'LinkedIn',
+                path: 'https://www.linkedin.com/in/gustavohenri316/',
               },
               {
-                title: 'Twitter',
-                path: 'http://twitter.com',
+                title: 'GitHub',
+                path: 'https://github.com/gustavohenri316',
+              },
+              {
+                title: 'Facebook',
+                path: 'https://www.facebook.com/gustavogoncalveshenrique/',
               },
               {
                 title: 'Instagram',
-                path: 'http://instagram.com',
+                path: 'https://www.instagram.com/gustavoh.jpg/',
               },
             ]}
           />
@@ -84,7 +86,7 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
+            © 2021 - Gustavo Oliveira | Designed By{' '}
             <a target="_blank" rel="noreferrer" href="http://webcifar.com">
               web cifar
             </a>{' '}
