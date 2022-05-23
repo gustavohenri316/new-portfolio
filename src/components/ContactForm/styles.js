@@ -36,4 +36,16 @@ button[type='submit'] {
   border-radius: 8px;
   cursor: pointer;
 }
+button:disabled {
+  background-color: var(--gray-1);
+  color: red;
+  font-size: 2rem;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 1rem 4rem;
+  border-radius: 8px;
+  cursor: not-allowed;
+
+}
 `;

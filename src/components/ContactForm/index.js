@@ -11,7 +11,7 @@ export default function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [open, setOpen] = useState(false);
+  const [opens, setOpen] = useState(false);
 
   const handleClick = () => {
     setOpen(true);
@@ -68,9 +68,15 @@ export default function ContactForm() {
           </div>
           <input type="hidden" name="_captcha" value="false"></input>
           <input type="hidden" name="_next" value="https://gustavohenri316.vercel.app/contact"></input>
-          <button type="submit" onClick={handleClick}>Send</button>
-          <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
-            <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
+          <button 
+            disabled={email === '' || name === '' || message === ''}
+            type="submit" 
+            onClick={handleClick}
+          >
+          Send
+          </button>
+          <Snackbar open={opens} autoHideDuration={6000} onClose={handleClose} sx={{width: '600px', height: '80px', display: 'flex', justifyContent: 'center'}}>
+            <Alert onClose={handleClose} severity="success" sx={{ width: '100%', fontSize: '18px',  }}>
               Email enviado com sucesso!!
             </Alert>
           </Snackbar>
