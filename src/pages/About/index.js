@@ -1,11 +1,9 @@
 import React from 'react';
-import AboutImg from '../../assets/images/about-page-img.png';
+import AboutImg from '../../assets/images/eu.jpeg';
 import AboutInfoItem from '../../components/AboutInfoItem';
-import Button from '../../components/Button';
 import ContactBanner from '../../components/ContactBanner';
 import PText from '../../components/PText';
 import { AboutPageStyles } from './styles';
-
 
 
 export default function About() {
@@ -16,15 +14,12 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                Hi, I am <span>Gustavo Oliveira</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">Front-End developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                I'm from Contagem, Minas Gerais. A place of beauty and nature. Since my childhood, I love art and technology. I will always try to design things with my unique point of view. I love creating things that can be useful to others as well.
                   <br /> <br />
                   I started coding since I was in high school. Coding is also an
                   art for me. I love it and now I have the opportunity to design
@@ -38,7 +33,7 @@ export default function About() {
                   place.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <a className='button-cv' href="https://drive.google.com/file/d/1fzUfH1WZ2pZhgqzKEJc0aVcSedAVPY-w/view?usp=sharing" target='_blank'>Download CV</a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />

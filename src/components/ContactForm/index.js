@@ -9,6 +9,10 @@ export default function ContactForm() {
   return (
     <>
       <FormStyle>
+        <form 
+          action="https://formsubmit.co/gustavohenri316@icloud.com" 
+          method="POST"
+        >
         <div className="form-group">
           <label htmlFor="name">
             Your Name
@@ -45,7 +49,10 @@ export default function ContactForm() {
             />
           </label>
         </div>
+        <input type="hidden" name="_captcha" value="false"></input>
+        <input type="hidden" name="_next" value="https://gustavohenri316.vercel.app/contact"></input>
         <button type="submit">Send</button>
+        </form>
       </FormStyle>
     </>
   );
