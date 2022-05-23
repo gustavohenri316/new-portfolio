@@ -26,6 +26,12 @@ export const ProjectItemStyles = styled.div`
   font-family: 'RobotoMono Regular';
   margin-top: 1rem;
 }
+.projectItem__link{
+  font-size: 1.6rem;
+  font-family: 'RobotoMono Regular';
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
 @media only screen and (max-width: 768px) {
   .projectItem__img {
     height: 350px;
