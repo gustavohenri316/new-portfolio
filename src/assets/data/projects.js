@@ -13,13 +13,13 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Alga Shopping',
-    desc:'An app to help people to get an overview of how they can make the city beautiful.',
+    desc:'Using this app you can know how much to spend on shopping in the market',
     img: GreenCtgImg,
   },
   {
     id: uuidv4(),
     name: 'Naped',
-    desc:'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
+    desc:'Have all the knowledge of the nerd world in one place',
     img: CoinTrackerImg,
   },
   // {

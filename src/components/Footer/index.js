@@ -86,10 +86,10 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Gustavo Oliveira | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
+            © 2021 - Gustavo Oliveira | Designed By{' '} @GuhCode
+            {/* <a target="_blank" rel="noreferrer" href="http://webcifar.com">
               web cifar
-            </a>{' '}
+            </a>{' '} */}
           </PText>
         </div>
       </div>
