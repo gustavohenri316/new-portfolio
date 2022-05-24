@@ -33,7 +33,7 @@ export default function About() {
                   place.
                 </PText>
               </div>
-              <a className='button-cv' href="https://drive.google.com/file/d/1fzUfH1WZ2pZhgqzKEJc0aVcSedAVPY-w/view?usp=sharing" target='_blank'>Download CV</a>
+              <a className='button-cv' href="https://doc-0s-5o-docs.googleusercontent.com/docs/securesc/n8h2qvo1eh4nkmdmn5jk4p7qhbkheebk/kdrg4jujpf8k6l4p34dhngbca94v29vq/1653350775000/03737242556981827017/06563534627622652318/1fzUfH1WZ2pZhgqzKEJc0aVcSedAVPY-w?e=download&ax=ACxEAsZElVManwJOsj8GfafA_orOZw6qXCgrCw1rS3KR4aZm2qh5vXKd2xgVYeDPPV8aRLPJ6KEhMvDrhEeC71Hai4ji_tNi2GYmguT2gETJaS2iQcYbCl83xlF27U7RiTxmzuSKbyQ-XalalS1MSwMBqjJqrftGf-RCks4CW-xY39yL4CORgDl_aGhGf9SuK5LubHhvYXehU363MP-qYXBvPDeHXuP8T29StUp8WqdpmKNz-gPQuofWvUY6U2OeB_3cVgCuOotO0FRlKmS9Y56LPR5E5DGuQzU8auy4YAD1emOvKRec49TV0yW4xzJTuuQjKfYjvgM_rqNR-2gkcViJoYTYJJ9ghIfPEDcKGSgqs7FcdBQkVFx1EdCXmPsgYVMig2aBI2HnSGvF-4T8RPJibYI5GV4IY4qJh4MzSBtLZQcwbr17h8tOFPRwMwiWL5ex8bMNKAZ8lRHNUwNt_hPG9FLpoZNOysxYcjJ0AYlmwzEr7okiH5loz-IGb_5rvfGHGTnoXDqJx8713mvfMxKpLsuTtOpLJzyuuotd7Eo-MxdJuZeGmrHfJm_aGmSiV4ZbwdbQYuRA4mUnoV9thf-UzgPD9txOQY5n4TQeakUKxalZHEf_F9rHgl5qUYuhz6CHqkIHhLhHeCvdHLB6L6ogbkROQKwBjx0qC2dHaTTfsWbJnhGW4cy22Kt2gexkxQGJQRLZ94zHN_UZ_A&authuser=0" target='_blank'>Download CV</a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
