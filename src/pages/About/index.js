@@ -44,7 +44,7 @@ export default function About() {
               <h1 className="about__info__heading">Education</h1>
 
               <AboutInfoItem
-                title="Ensino Médio"
+                title="School"
                 items={['Escola Estadua Santa Quiteria']}
               />
               <AboutInfoItem
