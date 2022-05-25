@@ -38,7 +38,7 @@ button[type='submit'] {
 }
 button:disabled {
   background-color: var(--gray-1);
-  color: red;
+  color: #8B0000;
   font-size: 2rem;
   display: inline-block;
   outline: none;

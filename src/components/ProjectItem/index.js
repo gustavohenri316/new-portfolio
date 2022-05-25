@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ProjectImg from '../../assets/images/projectImg.png';
+import ProjectImg from '../../assets/images/naped.png';
 import { ProjectItemStyles } from './styles';
 
 
